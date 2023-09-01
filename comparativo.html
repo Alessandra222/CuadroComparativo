@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea2.-Cuadro Comparativo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+
+  <div class="backgroundCuadroComparativo"></div>
+  <div class="sm:px-2 md:px-4">
+    <div class="relative mx-auto bg-gradient-to-br from-purple-300 to-purple-500 rounded-lg">
+        <p class="text-center text-2xl"> Cuadro comparativo de VCS</p>
+    </div>
+</div>
+
+
+  <div class="overflow-x-auto py-4 md:py-10 px-4 md:px-16 lg:px-20 xl:px-40 sm:rounded-lg py-10 px-40">
+    <table class="w-full text-sm text-center text-gray-500">
+        <thead class="text-xs text-gray-50 uppercase bg-purple-900">
+            <tr>
+                <th scope="col" class="px-6 py-3 "> VCS </th>
+                <th scope="col" class="px-6 py-3"> Fecha de lanzamiento </th>
+                <th scope="col" class="px-6 py-3"> Creadores </th>
+                <th scope="col" class="px-6 py-3"> Última versión estable </th>
+                <th scope="col" class="px-6 py-3"> Lenguaje en el que está desarrollado </th>
+                <th scope="col" class="px-6 py-3"> Modelo de desarrollo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class=" border-b bg-purple-500 border-purple-500 hover:bg-pink-300">
+                <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
+                    Git
+                </th>
+                <td class="px-6 py-4 text-black font-semibold">
+                  19 de octubre de 2007
+                </td>
+                <td class="px-6 py-4 text-black font-semibold">
+                  Linus Torvalds
+                </td>
+                <td class="px-6 py-4 text-black font-semibold">
+                    2.41.0 (13/06/2023)
+                </td>
+                <td class="px-6 py-4 text-right text-black font-semibold">
+                  <ul class="text-center">
+                    <li>C</li>
+                    <li>Bourne Shell</li>
+                    <li>Perl</li>
+                    <li>Tcl</li>
+                  </ul>
+                </td>
+                <td class="text-black font-semibold">Software libre</td>
+            </tr>
+         <tr class="border-b bg-purple-900 border-gray-700 hover:bg-pink-600">
+              <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap text-white">
+                  Mercurial
+              </th>
+              <td class="px-6 py-4 text-white">
+                19 de abril de 2005
+              </td>
+              <td class="px-6 py-4 text-white">
+                <ul>
+                  <li>Matt Mackall</li>
+                  <li>Pierre-Yves David</li>
+                </ul>
+              </td>
+              <td class="px-6 py-4  text-white">
+                  6.5 (6/06/2023)
+              </td>
+              <td class="px-6 py-4 text-right text-white">
+                <ul class="text-center">
+                  <li>Python</li>
+                  <li>C</li>
+                  <li>Rust</li>
+                </ul>
+              </td>
+              <td class="text-white">Software libre</td>
+          </tr>
+          <tr class="border-b bg-purple-500 border-gray-700 hover:bg-pink-300">
+            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap text-white">
+              Apache Subversion (SVN)
+            </th>
+            <td class="px-6 py-4 text-black font-semibold">
+              20 de octubre de 2000
+            </td>
+            <td class="px-6 py-4 text-black font-semibold">
+              <ul>
+                <li>Comunidad, y desarrolladores de CollabNet</li>
+                <li>Elego</li>
+                <li>VisualSVN</li>
+                <li>WANdisco</li>
+              </ul>
+            </td>
+            <td class="px-6 py-4 text-black font-semibold">
+                1.14.1 ( 10/02/2021)
+            </td>
+            <td class="px-6 py-4 text-right text-black font-semibold">
+              <ul class="text-center">
+                <li> C</li>
+              </ul>
+            </td>
+            <td class="text-black font-semibold">Software libre</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="overlay">
+  <h1 class="text-2xl">Conclusión</h1>
+  <p>
+    Gracías al cuadro comparativo podemos notar que el más antiguo entre Git, Mercurial y Subversión es este ultimo que les tiene una ventaja de 7 y 5 años respectivamente, podemos notar que git y Mercurial estan en situaciones similiares referentes a la peridiocidad de sus actualizacion a diferencia de Subversion que tiene mucho mas tiempo sin actualizarse, algo en que todos estos controladores de versiones tienen en comun es que todos fueron codificados en lenguaje C. La finalidad de crear un cuadro comparativo sobre tres software de control de versiones existentes, como Git, Subversion y Mercurial, sería proporcionar una visión objetiva de cada uno de ellos. Siendo de gran ayuda para decidir cual de esos sistemas de control de versiones se ajusta mejor a mis necesidades, por otr lado tambien ayuda a conocer otras alternativas aparte de git</p>
+  <h1 class="text-2xl">Fuentes</h1>
+
+  <p class="font-serif text-lg">
+    <i class="fas fa-solid fa-pen-nib"></i>Git - una breve historia de Git. (s. f.). https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Una-breve-historia-de-Git.
+  <br>
+  <i class="fas fa-solid fa-pen-nib"></i>¿Qué lenguajes se usan en Git? (s. f.). Quora. https://es.quora.com/Qu%C3%A9-lenguajes-se-usan-en-git
+  <br>
+  <i class="fas fa-solid fa-pen-nib"></i>colaboradores de Wikipedia. (2023). Git. Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Git.
+  <br>
+  <i class="fas fa-solid fa-pen-nib"></i>colaboradores de Wikipedia. (2023a). Mercurial. Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Mercurial.
+  <br>
+  <i class="fas fa-solid fa-pen-nib"></i>Mercurial SCM. (s. f.). https://www.mercurial-scm.org/about
+  <br>
+  <i class="fas fa-solid fa-pen-nib"></i>colaboradores de Wikipedia. (2023). Subversion (software). Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Subversion_(software).
+  <br>
+  </p>
+</div>
+
+
+
+</body>
+</html>
